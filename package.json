@@ -1,0 +1,11 @@
+{
+  "name": "hexo-tag-mermaid",
+  "version": "1.0.0",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "description": "A hexo tag for draw sequence.",
+  "homepage": "https://github.io/jamechou/hexo-tag-sequence",
+  "main": "index.js",
+  "author": "James Chow"
+}
