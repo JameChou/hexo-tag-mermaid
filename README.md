@@ -55,6 +55,7 @@ script(src="//cdn.bootcss.com/mermaid/6.0.0/mermaid.min.js")
 ## 例子
 
 #### flowchart
+```
 {% mermaid %}
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
@@ -63,8 +64,10 @@ graph TD
     C -->|Two| E[iPhone]
     C -->|Three| F[Car]
 {% endmermaid %}
+```
 
 #### Sequence diagram
+```
 {% mermaid %}
 sequenceDiagram
     loop every day
@@ -72,8 +75,10 @@ sequenceDiagram
         John-->>Alice: Great!
     end
 {% endmermaid %}
+```
 
 #### Gantt diagram
+```
 {% mermaid %}
 gantt
     dateFormat  YYYY-MM-DD
@@ -103,3 +108,4 @@ gantt
     Add gantt diagram to demo page      : 20h
     Add another diagram to demo page    : 48h
 {% endmermaid %}
+```
