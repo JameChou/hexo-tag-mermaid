@@ -1,6 +1,8 @@
 ## hexo-tag-mermaid
 Version: 1.0.0
 
+实际使用效果请访问:[Hexo流程图等插件安装教程](http://jcchow.com/2016/07/11/mermaid-sequence/)
+
 ## 安装
 <div class="tip">
   目前此tag插件暂时还没有被Hexo官方收录。所以暂时手动去安装插件。
