@@ -4,18 +4,8 @@ Version: 1.0.0
 实际使用效果请访问:[Hexo流程图等插件安装教程](http://jcchow.com/2016/07/11/mermaid-sequence/)
 
 ## 安装
-<div class="tip">
-  目前此tag插件暂时还没有被Hexo官方收录。所以暂时手动去安装插件。
-</div>
 
-#### 添加依赖至package.json
-`git clone https://github.com/JameChou/hexo-tag-mermaid.git your_blog/node_modules`在**package.json** 中手动添加依赖:
-```json
-"dependencies": {
-  ...
-  "hexo-tag-mermaid": "^1.0.0"
-}
-```
+`npm install --save hexo-tag-mermaid`
 
 #### 添加mermaid依赖至主题模板里
 进入`themes/your_theme_folder/layout/partial`目录，添加**mermaid**相关文件。以我使用的主题**apollo**为例。
